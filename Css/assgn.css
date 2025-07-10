@@ -1,0 +1,44 @@
+/*
+  ============================================
+    Developer Name: Samiul Hasan
+    Experience: 1 year 8 months in Web Dev
+    Note: With Allah's blessings, I've tried 
+          my best to create quality work.
+    Alhamdulillah for everything.
+  ============================================
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* assgn-css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-repeat: repeat;
+    background-size: 250px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-repeat: inherit;
+    background-size: inherit;
+    background-color: inherit;
+    opacity: 0.05;
+    z-index: -1;
+}
