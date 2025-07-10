@@ -523,3 +523,54 @@ header button:hover {
 .newsletter-form button:hover {
     background-color: #553c9a;
 }
+
+footer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 80px 16px;
+    margin-top: 80px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer .logo {
+    color: #6b46c1;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    footer nav {
+        flex-direction: row;
+    }
+}
+
+footer nav a {
+    color: #4a5568;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+    color: #6b46c1;
+}
